@@ -11,6 +11,6 @@ export async function onRequest(context) {
     //get the request url
     const url = new URL(request.url);
     // return new Response('Logged out.', { status: 401 });
-    return Response.redirect(url.origin+"/index.html", 401);
+    return Response.redirect(url.origin+"/index.html", 301);
 
   }
