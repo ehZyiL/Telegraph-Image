@@ -15,12 +15,12 @@ $smfile.fileinput({
         return dataObj;
     },
     // allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp'],
-    allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'mp4', 'mov', 'avi'],
+    allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp', 'mp4', 'mov', 'avi'],
     overwriteInitial: false,
     previewFileType: "image",
     maxFileSize: '5120',
     maxFileCount: '100',
-    maxAjaxThreads: 2,
+    maxAjaxThreads: 3,
     showClose: false,
     autoOrientImage: true,
     fileActionSettings: {
@@ -312,7 +312,8 @@ $smfile.fileinput("setBeforeAjaxEnqueue", function (settings) {
 
 let div_caption = $(".kv-fileinput-caption");
 div_caption.attr('onclick', 'clickFile()');
-function clickFile() {
+function 
+clickFile() {
     $smfile.click();
 }
 

@@ -187,7 +187,7 @@ fieldset legend img {
 }
 
 .about-txt {
-    background-color: #c3f5cf;
+    background-color: #c4e3ff;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 3px;
@@ -206,7 +206,7 @@ fieldset legend img {
 
 .about-txt a {
     color: #155724;
-    background-color: #97e4a9;
+    background-color: #c4e3ff;
     border-radius: 3px;
     margin-right: 5px;
     font-size: 14px;
@@ -257,7 +257,7 @@ fieldset legend img {
 }
 
 .about-contact {
-    background-color: #c4e3ff;
+    background-color: #97e4a9;
     padding: 10px;
     margin-top: 20px;
     border: 1px solid #a6cef3;
@@ -282,11 +282,11 @@ fieldset legend img {
 
 .about-contact a {
     color: #155724;
-    background-color: #90caff;
+    /* background-color: #111111; */
     border-radius: 3px;
     margin: 0 5px;
-    font-size: 14px;
-    padding: 2px 9px;
+    font-size: 20px;
+    padding: 2px 4px;
     text-decoration: none;
     transition: .3s all ease
 }
@@ -1496,6 +1496,7 @@ div.container iframe {
 .image-code-cover img {
     width: 100px;
     height: 100px;
+    background-size: cover;
 }
 
 /* .table td,

@@ -92,7 +92,7 @@ function authentication(context) {
       }
 
     } else {
-      return new Response('You need to login.', {
+      return new Response('登陆才能查看管理页面哦！.', {
         status: 401,
         headers: {
           // Prompts the user for credentials.

@@ -252,13 +252,11 @@
                         .then(result => {
                             console.log(result);
                             if (result.success) {
-                                alert("删除记录成功")
+                                console.log("删除记录成功")
                                 this.tableData.remove(index);
                             } else {
                                 alert("删除记录失败")
                             }
-
-
                         })
                         .catch(error => {
                             alert(error);
